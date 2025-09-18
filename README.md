@@ -42,7 +42,11 @@ This project analyzes a cybersecurity intrusion detection dataset to predict use
 ├── src/
 │   └── regression_model.py
 └── results/
-    └── visualizations/
+    ├── visualizations/
+    │   ├── 01_training_dataset_analysis.png/pdf
+    │   └── 02_regression_model_performance.png/pdf
+    ├── model_results_summary.txt
+    └── model_predictions.csv
 ```
 
 ## Requirements
@@ -63,7 +67,14 @@ This project analyzes a cybersecurity intrusion detection dataset to predict use
 
 ## Results
 
-[Results will be added after analysis completion]
+The analysis generates comprehensive outputs automatically saved to the `results/` directory:
+
+- **Visualizations**: High-resolution PNG and PDF charts for presentations
+- **Model Summary**: Complete analysis report with performance metrics  
+- **Predictions**: Actual vs predicted values for model evaluation
+- **Performance Metrics**: R² = 0.0012, RMSE = 810.36 seconds
+
+Key finding: Current features (packet size, login attempts) explain only 0.1% of session duration variance, indicating need for additional feature engineering in cybersecurity session prediction.
 
 ## Author
 

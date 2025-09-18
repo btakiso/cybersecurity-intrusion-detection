@@ -55,8 +55,10 @@ cybersecurity-intrusion-detection/
 │   └── cybersecurity_regression_analysis.ipynb  # Main analysis
 ├── src/
 │   └── regression_model.py     # Python class for model
-└── results/
-    └── visualizations/         # Generated plots and charts
+└── results/                    # Auto-generated analysis outputs
+    ├── visualizations/         # High-resolution charts (PNG/PDF)
+    ├── model_results_summary.txt  # Complete analysis report
+    └── model_predictions.csv   # Model predictions and residuals
 ```
 
 ## Project Completion Checklist ✅
