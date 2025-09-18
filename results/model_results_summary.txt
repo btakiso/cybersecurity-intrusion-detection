@@ -1,0 +1,26 @@
+CYBERSECURITY INTRUSION DETECTION - REGRESSION ANALYSIS RESULTS
+======================================================================
+
+Author: Bereket Takiso
+Dataset: Kaggle - Cybersecurity Intrusion Detection Dataset
+Dataset Shape: (9537, 11)
+
+DATA ANALYSIS:
+- Total Records: 9,537
+- Target Variable: session_duration
+- Target Mean: 792.75 seconds
+- Target Range: 0.5 - 7190.4 seconds
+
+FEATURE CORRELATIONS:
+- network_packet_size: 0.0217
+- login_attempts: 0.0064
+
+MODEL PERFORMANCE:
+- Best Model: Linear Regression
+- R² Score: 0.0012
+- RMSE: 810.36 seconds
+- MAE: 578.97 seconds
+
+ALL MODELS COMPARISON:
+- Linear Regression: R² = 0.0012, RMSE = 810.36
+- Random Forest: R² = -0.2957, RMSE = 922.95

@@ -50,9 +50,9 @@ ehthumbs.db
 Desktop.ini
 
 # Results and cache
-results/visualizations/*.png
-results/visualizations/*.jpg
-results/visualizations/*.pdf
+#results/visualizations/*.png
+#results/visualizations/*.jpg
+#results/visualizations/*.pdf
 .cache/
 
 # Logs
