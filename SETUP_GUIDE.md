@@ -59,7 +59,7 @@ cybersecurity-intrusion-detection/
     └── visualizations/         # Generated plots and charts
 ```
 
-## Assignment Submission Checklist ✅
+## Project Completion Checklist ✅
 
 - [ ] GitHub account created
 - [ ] Repository created and populated

@@ -67,4 +67,4 @@ This project analyzes a cybersecurity intrusion detection dataset to predict use
 
 ## Author
 
-Bereket Takiso - Portfolio Project for Machine Learning Assignment
+Bereket Takiso - Machine Learning Portfolio Project
